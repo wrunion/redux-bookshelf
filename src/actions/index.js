@@ -3,6 +3,6 @@
 export const addBook = (book) => {
   return {
     type: 'ADD_BOOK',
-    data: { book }
+    data: book
   }
 }
