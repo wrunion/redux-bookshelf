@@ -1,8 +1,8 @@
-export const ADD_BOOK = 'ADD_BOOK';
+// export const ADD_BOOK = 'ADD_BOOK';
 
 export const addBook = (book) => {
   return {
-    type: ADD_BOOK,
-    data: book
+    type: 'ADD_BOOK',
+    data: { book }
   }
 }
